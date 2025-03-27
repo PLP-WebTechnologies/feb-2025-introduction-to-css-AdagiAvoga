@@ -1,0 +1,57 @@
+/*Apply a background color and font to the whole page*/
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header{
+background-color: #0073e6;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 24px;
+border-bottom: 5px solid #005bb5;
+}
+
+/* Style the paragraph */
+.text-content {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 15px;
+    border-left: 5px solid #0073e6;
+    background-color: white;
+}
+
+/*Style an image */
+.image-style {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #0073e6;
+    border-radius: 10px;
+}
+
+/*Style a button*/
+#action-button{
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#action button:hover {
+    background-color: #005bb5;
+}
